@@ -2,7 +2,7 @@ name: Generate Pacman Animation
 
 on:
   schedule:
-    - cron: '0 */12 * * *'  # every 12 hours
+    - cron: '0 */12 * * *' # every 12 hours
   workflow_dispatch:
   push:
     branches:
@@ -18,6 +18,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          persist-credentials: false
 
       - name: Generate pacman-contribution-graph (dark)
         uses: abozanona/pacman-contribution-graph@main
@@ -32,11 +34,12 @@ jobs:
           output_path: pacman-contribution-graph.svg
           theme: github-light
 
-      - name: Push pacman graphs to output branch
-        uses: crazy-max/ghaction-github-pages@v3.1.0
-        with:
-          target_branch: output
-          build_dir: .
-          keep_history: true
+      - name: Commit and push graphs to main
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add pacman-contribution-graph-dark.svg pacman-contribution-graph.svg
+          git commit -m "Update Pacman contribution graphs [skip ci]" || echo "No changes to commit"
+          git push origin main
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
