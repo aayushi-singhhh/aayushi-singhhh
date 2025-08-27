@@ -4,7 +4,7 @@
 
 ###
 
-<img align="right" height="150" src="https://img.freepik.com/premium-vector/vector-illustration-programmer-flat-design-style_844724-3931.jpg?semt=ais_hybrid&w=740"  />
+![Typing SVG](https://readme-typing-svg.herokuapp.com?color=F72585&size=22&center=true&vCenter=true&width=800&lines=Welcome+to+my+GitHub+Profile!;OPEN+SOURCE+CONTRIBUTOR!;Exploring+Data!;IT+Sophomore;Learning+Generative+AI;AI+ML+Enthusiast;Have+a+Great+Day...;Thank+you!)
 
 ###
 
