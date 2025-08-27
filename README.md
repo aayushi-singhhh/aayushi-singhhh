@@ -1,6 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=gradient&text=Aayushi%20Singh&reversal=false&textBg=false&descAlign=100&fontAlign=50&fontAlignY=38
-    "/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=150&color=gradient&text=Aayushi%20Singh&reversal=false&textBg=false&descAlign=100&fontAlign=50&fontAlignY=38"/>
 </p>
 <h1 align="left">Hello World!!! I am AAYUSHI SINGH👩‍💻</h1>
 
