@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&text=AAYUSHI SINGH!&height=100&section=header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=Aayushi%20Singh&reversal=false&textBg=false&descAlign=100"/>
 </p>
 <h1 align="left">Hello World!!! I am AAYUSHI SINGH👩‍💻</h1>
 
