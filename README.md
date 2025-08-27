@@ -80,3 +80,18 @@
 </div>
 
 ###
+
+<div align="center">
+  <h2>🐍 Snake eating my contributions</h2>
+</div>
+
+
+  
+<!--![Snake animation](https://github.com/ankitpatil7/ankitpatil7/blob/output/github-snake-dark.svg)-->
+
+<!-- Snake Game Repo View -->
+<div align="center">
+  <img src="https://profile-readme-generator.com/assets/snake.svg" alt="Snake animation" />
+</div>
+
+
